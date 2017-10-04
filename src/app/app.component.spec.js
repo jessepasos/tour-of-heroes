@@ -9,8 +9,7 @@ describe('AppComponent', function () {
     beforeEach(testing_1.async(function () {
         testing_1.TestBed.configureTestingModule({
             declarations: [app_component_1.AppComponent]
-        })
-            .compileComponents();
+        }).compileComponents();
     }));
     beforeEach(function () {
         fixture = testing_1.TestBed.createComponent(app_component_1.AppComponent);
